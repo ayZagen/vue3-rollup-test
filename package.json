@@ -1,0 +1,23 @@
+{
+  "name": "vue-next-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "sideEffects": false,
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "dependencies": {
+    "vue": "3.0.0-beta.14"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^8.0.0",
+    "@rollup/plugin-typescript": "^4.1.2",
+    "@vue/compiler-sfc": "^3.0.0-beta.14",
+    "rollup": "^2.10.7",
+    "rollup-plugin-typescript2": "^0.27.1",
+    "rollup-plugin-vue": "^6.0.0-beta.1",
+    "tslib": "^2.0.0",
+    "typescript": "^3.8.3"
+  }
+}

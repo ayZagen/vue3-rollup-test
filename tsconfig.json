@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "moduleResolution": "node",
+    "target": "esnext",
+    "paths": {
+      "vue": ["@vue/runtime-dom"]
+    }
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.vue"
+  ]
+}
