@@ -12,6 +12,10 @@ export default {
     plugins: [
         resolve(),
         typescript(),
+        // with @rollup/plugin-typescript
+        // typescript({
+        //   include: [/\.tsx?$/, /\.vue\?.*?lang=ts/]
+        // }),
         vue(),
     ]
 }
