@@ -15,4 +15,7 @@
 </script>
 
 <style scoped>
+.h3 {
+    color: blue;
+}
 </style>
