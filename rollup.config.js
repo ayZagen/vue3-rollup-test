@@ -2,6 +2,7 @@ import vue from 'rollup-plugin-vue'
 // import typescript from '@rollup/plugin-typescript'
 import typescript from 'rollup-plugin-typescript2'
 import resolve from '@rollup/plugin-node-resolve';
+import postcss from 'rollup-plugin-postcss'
 
 export default {
     input: 'src/index.ts',
@@ -12,6 +13,7 @@ export default {
     plugins: [
         resolve(),
         vue(),
+        postcss(),
         // typescript(),
         // with @rollup/plugin-typescript
         typescript({
