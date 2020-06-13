@@ -5,19 +5,24 @@
   "license": "MIT",
   "sideEffects": false,
   "scripts": {
+    "dev": "cross-env NODE_ENV=development rollup -cw",
     "build": "rollup -c"
   },
   "dependencies": {
-    "vue": "3.0.0-beta.14"
+    "vue": "3.0.0-beta.15"
   },
   "devDependencies": {
-    "@rollup/plugin-node-resolve": "^8.0.0",
-    "@rollup/plugin-typescript": "^4.1.2",
-    "@vue/compiler-sfc": "^3.0.0-beta.14",
+    "@rollup/plugin-alias": "^3.1.1",
+    "@rollup/plugin-commonjs": "^13.0.0",
+    "@rollup/plugin-node-resolve": "^8.0.1",
+    "@vue/compiler-sfc": "^3.0.0-beta.15",
+    "cross-env": "^7.0.2",
     "rollup": "^2.10.7",
+    "rollup-plugin-livereload": "^1.3.0",
     "rollup-plugin-postcss": "^3.1.2",
+    "rollup-plugin-serve": "^1.0.1",
     "rollup-plugin-typescript2": "^0.27.1",
-    "rollup-plugin-vue": "^6.0.0-beta.1",
+    "rollup-plugin-vue": "^6.0.0-beta.6",
     "tslib": "^2.0.0",
     "typescript": "^3.8.3"
   }

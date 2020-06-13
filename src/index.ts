@@ -1,4 +1,4 @@
-import Test from "./Test.vue";
 import { createApp } from "vue";
+import Test from "./Test.vue";
 
 createApp(Test).mount(document.body)
